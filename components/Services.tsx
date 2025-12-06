@@ -1,4 +1,4 @@
-import { Stethoscope, Microscope, Brain, Heart, Baby, Syringe, Eye, Tooth } from 'lucide-react'
+import { Stethoscope, Microscope, Brain, Heart, Baby, Syringe, Eye } from 'lucide-react'
 
 const services = [
   {
@@ -43,12 +43,6 @@ const services = [
     description: 'Exámenes de la vista, diagnóstico y tratamiento de enfermedades oculares.',
     color: 'bg-indigo-100 text-indigo-600'
   },
-  {
-    icon: Tooth,
-    title: 'Odontología',
-    description: 'Cuidado dental integral, limpiezas, tratamientos y ortodoncia.',
-    color: 'bg-teal-100 text-teal-600'
-  }
 ]
 
 export default function Services() {
